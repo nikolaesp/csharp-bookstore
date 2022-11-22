@@ -25,3 +25,17 @@ int numeroRecensioni = 4741;
 double valutazioneMedia = 4.7;
 bool kindle = true;
 bool copertina = true;
+
+Console.WriteLine("--------------- IL LIBRO DI OGGI: " +titolo+"\n di "+autore+ "----------------\n");
+Console.WriteLine("Informazioni Generiche: ");
+Console.WriteLine("Numero di pagine:" + pagine + " pagine.");
+Console.WriteLine("ISBN: " + ISBN);
+Console.WriteLine("Peso del libro: " + peso + "kg.");
+Console.WriteLine("Dimensioni del libro: "+larghezza+"cm x "+lunghezza+"cm x "+profondita+"cm");
+Console.WriteLine("Informazioni Amazon:");
+Console.WriteLine("Numero di recensioni: "+numeroRecensioni+" recensioni");
+Console.WriteLine("Valutazione media: "+valutazioneMedia+" stelline");
+if (kindle) Console.WriteLine("Kindle disponibile: Si");
+else Console.WriteLine("Kindle disponibile: No");
+if (copertina) Console.WriteLine("Copertina flessibile disponibile: Si");
+else Console.WriteLine("Copertina flessibile disponibile: No");
